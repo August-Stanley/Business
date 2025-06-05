@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jordan Smith | Cyber CV</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cv-wrapper">
+    <div class="card glass">
+
+      <img src="your-profile.jpg" alt="Profile Picture" class="profile-img">
+
+      <div class="header">
+        <h1>Jordan Smith</h1>
+        <p><span id="typing-text"></span><span class="cursor">|</span></p>
+      </div>
+
+      <section>
+        <span class="section-title">Professional Experience</span>
+
+        <div class="job">
+          <div class="job-title">Frontend Developer</div>
+          <div class="company">Exodus · Jan 2023 – Present</div>
+          <p class="job-desc">
+            Creating crypto interfaces using React, TypeScript & Electron. Delivering seamless UI/UX for web3 applications with a focus on design systems, performance, and security.
+          </p>
+        </div>
+
+        <div class="job">
+          <div class="job-title">Web Developer</div>
+          <div class="company">Creative Digitals Ltd. · Jun 2020 – Dec 2022</div>
+          <p class="job-desc">
+            Led responsive builds with Vue.js + TailwindCSS. Integrated blockchain APIs and optimized build performance through Webpack and GitHub Actions.
+          </p>
+        </div>
+
+        <div class="job">
+          <div class="job-title">Junior Developer</div>
+          <div class="company">BrightCode Solutions · Aug 2018 – May 2020</div>
+          <p class="job-desc">
+            Assisted in building fintech dashboards using vanilla JS. Learned the core of frontend architecture and modern dev tooling.
+          </p>
+        </div>
+      </section>
+
+      <div class="footer">
+        <div class="address">📍 42 Camden Street, London, NW1 0HP, UK</div>
+        <div class="social-icons">
+          <a href="https://facebook.com/yourprofile" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+          </a>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Exodus-logo.png" alt="Exodus Logo" class="logo">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
