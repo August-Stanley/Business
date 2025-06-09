@@ -3,60 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>August Stanley | Cyber CV</title>
+  <title>Cyber Guardian | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <div class="cv-wrapper">
-    <div class="card glass">
+  <canvas id="bg-canvas"></canvas>
 
-      <img src="your-profile.jpg" alt="Profile Picture" class="profile-img">
+  <section class="hero text-center">
+    <h1><span id="typewriter"></span></h1>
+    <p>Protecting digital landscapes with precision, integrity, and passion.</p>
+  </section>
 
-      <div class="header">
-        <h1>August Stanley</h1>
-        <p><span id="typing-text"></span><span class="cursor">|</span></p>
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m a cybersecurity analyst with a background in network defense, threat intelligence, and ethical hacking.
+      I specialize in identifying vulnerabilities before they become breaches.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="grid skills-grid">
+      <div class="badge">Network Security</div>
+      <div class="badge">Threat Hunting</div>
+      <div class="badge">SIEM</div>
+      <div class="badge">Penetration Testing</div>
+      <div class="badge">Firewalls</div>
+      <div class="badge">SOC Monitoring</div>
+      <div class="badge">Incident Response</div>
+      <div class="badge">Python</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="grid projects-grid">
+      <div class="card">
+        <h3>Intrusion Detection Dashboard</h3>
+        <p>Real-time Splunk dashboard for monitoring security events.</p>
       </div>
-
-      <section>
-        <span class="section-title">Professional Experience</span>
-
-        <div class="job">
-          <div class="job-title">Frontend Developer</div>
-          <div class="company">Exodus · Jan 2023 – Present</div>
-          <p class="job-desc">
-            Creating crypto interfaces using React, TypeScript & Electron. Delivering seamless UI/UX for web3 applications with a focus on design systems, performance, and security.
-          </p>
-        </div>
-
-        <div class="job">
-          <div class="job-title">Web Developer</div>
-          <div class="company">Creative Digitals Ltd. · Jun 2020 – Dec 2022</div>
-          <p class="job-desc">
-            Led responsive builds with Vue.js + TailwindCSS. Integrated blockchain APIs and optimized build performance through Webpack and GitHub Actions.
-          </p>
-        </div>
-
-        <div class="job">
-          <div class="job-title">Junior Developer</div>
-          <div class="company">BrightCode Solutions · Aug 2018 – May 2020</div>
-          <p class="job-desc">
-            Assisted in building fintech dashboards using vanilla JS. Learned the core of frontend architecture and modern dev tooling.
-          </p>
-        </div>
-      </section>
-
-      <div class="footer">
-        <div class="address">📍 42 Camden Street, London, NW1 0HP, UK</div>
-        <div class="social-icons">
-          <a href="https://facebook.com/yourprofile" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
-          </a>
-          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faltcoinsbox.com%2Fwp-content%2Fuploads%2F2023%2F04%2Fexodus-logo.png&f=1&nofb=1&ipt=cb49f84411394963ac6cc1f99e181e22d24685256b5d63421e219f5588025932" alt="Exodus Logo" class="logo">
-        </div>
+      <div class="card">
+        <h3>Phishing Simulation Campaign</h3>
+        <p>Deployed phishing tests to improve security awareness.</p>
+      </div>
+      <div class="card">
+        <h3>Cloud Hardening Script</h3>
+        <p>Automated AWS audit using Terraform and AWS CLI.</p>
+      </div>
+      <div class="card">
+        <h3>Ransomware Sandbox</h3>
+        <p>Behavior analysis for ransomware in an isolated environment.</p>
       </div>
     </div>
+  </section>
+
+  <!-- Certifications Section -->
+<section>
+  <h2>Certifications</h2>
+  <div class="certifications">
+    <div class="cert-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/OffSec_Logo.png" alt="OSCP Logo">
+      <h3>OSCP</h3>
+      <p>Offensive Security Certified Professional</p>
+    </div>
+    <div class="cert-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/CompTIA_Logo_2018.svg" alt="CompTIA Logo">
+      <h3>Security+</h3>
+      <p>CompTIA Security+ Certified Analyst</p>
+    </div>
   </div>
+</section>
+
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email me via ProtonMail: <a href="mailto:yourname@protonmail.com">yourname@protonmail.com</a></p>
+  </section>
+
+  <footer class="footer">
+    <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+    <a href="https://proton.me" target="_blank" aria-label="ProtonMail">
+      <i class="fas fa-envelope fa-2x"></i>
+    </a>
+  </footer>
+
+
+
+  
   <script src="script.js"></script>
+  
 </body>
 </html>
